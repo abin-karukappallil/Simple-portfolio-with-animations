@@ -8,7 +8,7 @@ You can edit my code as better and send me a pull request.
 
 
 Demo: https://abin-karukappallil.github.io/Simple-portfolio-with-animations/#t1
-![version](ttps://img.shields.io/badge/version-1.0-green)
+[![version](ttps://img.shields.io/badge/version-1.0-green)]
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 <h3 align="left">Connect with me:</h3>
 <p align="left">
