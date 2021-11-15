@@ -13,6 +13,6 @@ Demo: https://abin-karukappallil.github.io/Simple-portfolio-with-animations/#t1
 <p align="left">
 <a href="https://twitter.com/abinthehecker" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="abinthehecker" height="30" width="40" /></a>
 <a href="https://fb.com/abin karukappallil" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="abin karukappallil" height="30" width="40" /></a>
-<a href="https://instagram.com/abin_karukappallil" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="abin_karukappallil" height="30" width="40" /></a>
+<a href="https://www.instagram.com/abin_karukappallil/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="abin_karukappallil" height="30" width="40" /></a>
 </p>
     
