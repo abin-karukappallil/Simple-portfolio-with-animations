@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NiceMon Dominic</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Alatsi' rel='stylesheet'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="ct" id="t1">
+    <div class="ct" id="t2">
+      <div class="ct" id="t3">
+        <div class="ct" id="t4">
+          <section>
+            <ul>
+              <a href="#t1">
+                <li class="icon fa fa-home"></li>
+              </a>
+              <a href="#t2">
+                <li class="icon	fa fa-mortar-board"></li>
+              </a>
+              <a href="#t3">
+                <li class="icon fa fa-address-card"></li>
+              </a>
+              <a href="#t4">
+                <li class="icon fa fa-envelope"></li>
+              </a>
+            </ul>
+            <div class="page" id="p1">
+              <div class="cent">
+                <li class="icon"> <img class="homei" src="img/home.png" alt="" height="200px" width="200px"><span
+                    class="title">Abin Thomas</span><span class="hint">I'm a Developer From Earth<br /></span></li>
+              </div>
+            </div>
+            <div class="page" id="p2">
+              <li class="icon fa fa-certificate"><span class="title">Skils</span><span class="hint">Specilized in cloud
+                  computing,pentesting,web development,Js&Py development</span></li>
+            </div>
+            <div class="page" id="p3">
+              <li class="icon"><span class="title">About</span><img class="abouti" src="img/info-2.jpg" alt="">
+                <span class="container">Who am I?
+                  I'm Abin karukappallil.A Developer,Developing Bots and Websites.I am a freelancer based in the India
+                  and I have been building websites with the latest design trends. I will help convert a vision and an
+                  idea into meaningful and useful products. And creating some cool personal bots.....
+                </span>
+              </li>
+              </li>
+            </div>
+            <div class="page" id="p4">
+              <<div class="container">
+                <div style="text-align:center">
+                  <h2>Contact Me😄</h2>
+                  <strong>If u have any work feel free to contact me...😄</strong>
+                </div>
+                <div class="row">
+
+                  <div class="column">
+                    <form id="submit-form" method="post" action="">
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="name" placeholder="Your name..">
+                      <label for="lname">Email</label>
+                      <input type="text" id="lname" name="email" placeholder="Your last name..">
+                      <label for="gender">Gender</label>
+                      <select id="gender" name="color">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                      </select>
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="message" placeholder="Write something.."
+                        style="height:170px"></textarea>
+                      <input type="submit" value="Submit">
+                    </form>
+                  </div>
+                  <div class="column">
+                    <img src="img/logo.png" style="width:76%">
+                  </div>
+                </div>
+            </div></span></li>
+          </section>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+  <script>
+    $("#submit-form").submit((e) => {
+      e.preventDefault()
+      $.ajax({
+        url: "https://script.google.com/macros/s/AKfycbxB3dO9FKJ19AE79y6k5guHPnwyLJTle_9W26pKzlEql3N6k112dc4jlRLdrfevYz2Xfg/exec",
+        data: $("#submit-form").serialize(),
+        method: "post",
+        success: function (response) {
+          alert("Form submitted successfully")
+          window.location.reload()
+          //window.location.href="https://google.com"
+        },
+        error: function (err) {
+          alert("Something Error")
+
+        }
+      })
+    })
+  </script>
+
+</body>
+
+</html>
